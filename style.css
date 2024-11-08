@@ -1,0 +1,170 @@
+
+ .header {   /*шапка сайта*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 293px;
+  padding: 92px 24px 96px 24px; 
+  background-color: papayawhip;
+  
+  
+  
+  
+}
+
+
+  
+.header__menu { /* <nav>  контейнер навигации , в видео она его не указывала */
+  width: 387px;
+  height: 22px;
+  padding-top: 43px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+
+
+ .header__links-list { /* <ul>  список ссылок*/
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+}
+
+.header__links-list-item { /* <li>  пункт списка ссылок*/
+  list-style: circle;
+  font-size: 20px;
+  text-transform: lowercase;
+  
+  
+  
+}
+ 
+.header__links-list-item_no-bullit  { /*ура мы это сделали!!!! спасибо!!!пункт списка ссылок  и класс чтобы убрать кружочек*/
+  list-style: none;
+  
+}
+
+
+ .header__link { /* <a>  ссылка*/
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  line-height: 21,13;
+  border-bottom: 1px solid #000;
+  
+ }
+  
+
+ .header__link_active .header__link { /* <a>  ссылка и класс чтобы сделать главная активной ссылкой*/
+  text-decoration: none; 
+  border: 1px solid #fff;
+  
+
+}
+  
+.header__logo { /*  <a>  контейнер логотипа*/
+  
+  margin: auto;
+  
+  width: 135px;
+  
+  
+
+ 
+  
+  
+  
+}
+
+
+
+  .header__logo-image { /*  <img картинка с логотипом*/
+    width: 100%;
+    
+  }
+
+  .address { /* <address> контейнер с адресом*/
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    background-color: #fff;
+    
+    
+    padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ;
+   
+  } 
+
+  .text-decoration {
+   text-decoration: none;
+   border-bottom: 1px solid #000;
+  }
+
+  .header__address { /* <p> класс выравнивать блок с адресом. В футере используется другое выравнивание*/
+   
+  }
+  
+
+
+
+
+.content { /*класс для main */
+ background-color: #fff;
+}
+
+.cover {  /* для входной секции*/
+  width: 1100px;
+  height: 757px;
+  background-color: #fff;
+  
+  display: inline-block; /*span будет строчно-блочным*/
+}
+
+.lots {  /* для секции с карточками*/
+  width: 1052px;
+  height: 692px;
+  padding-top: 179px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  
+  
+  background-color: papayawhip;
+  
+ 
+
+}
+
+.about { /* для секции с информацией об аукционе*/
+ width: 1052px;
+ height: 595;
+ padding-bottom: 366px;
+ 
+ padding-left: 24px;
+ padding-right: 24px;
+ 
+ background-color: #fff;
+}
+
+.footer { /*подвал сайта*/
+  height: 97px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 91px;
+  background-color: papayawhip;
+
+}

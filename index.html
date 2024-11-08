@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>оно тебе надо</title>
+  </head>
+  <body>
+    <header class="header"><!--вся шапка сайта-->
+      <nav class="header__menu"><!--контейнер навигации-->
+        <ul class="header__links-list "><!--список ссылок-->
+
+          <li class="header__links-list-item header__links-list-item_no-bullit header__link_active"><!--пункт списка ссылок  и класс чтобы убрать кружочек-->
+              <a class="header__link ">Главная</a> <!--ссылка класс чтобы сделать ссылку активной-->
+               
+          </li> 
+
+          <li class="header__links-list-item"> <!--пункт списка ссылок-->
+            
+              <a href="#" class="header__link">посмотреть лоты</a> <!--ссылка-->
+            
+          </li>
+
+          <li class="header__links-list-item"> <!--пункт списка ссылок-->
+            
+              <a href="#"class="header__link">об аукционе</a> <!--ссылка-->
+           
+          </li>
+
+        </ul> <!--список закончился-->
+      </nav> <!--контейнер закрыт-->
+
+
+      <div class="header__address" > 
+        <a class="header__logo"> <!--контейнер логотипа-->
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта"> <!--картинка с логотипом-->
+         </a>
+          <address class="address"><!--контейнер с адресом и вложенность доп.класс чтобы выравнивать блок с адресом-->
+         <a class="text-decoration" href="tel:+77778889900">+9 999 555 5555</a><br>
+         <a class="text-decoration" href="mailto:article@auth.or">info@sobaka.ge</a><br>
+         <p class="header__address">наб. Принсенграхт 263-265, Амстердам</p>
+         
+      </address> 
+        </div>
+    </header>
+
+
+
+
+    <main class="content"><!--блок основного контента и мой класс-->
+      <section class="cover"><!--для входной секции-->
+        <div class="overlay"> <!--полупрозрачный блок поверх секции;-->
+          <h1 class="cover__title"> <!--заголовок-->
+            <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
+            <span class="aligned-text_center">те<span class="letter-spacing-extended-line-height">бе</span></span>
+            <span class="aligned-text_right">н<span class="letter-spacing-extended-text_right">ад<span class="no-letter-spacing">о</span>
+          </h1> 
+
+          <form class="cover__description"> <!--контейнер для подзаголовка и кнопки-->
+            <div class="cover__description-text">Аукцион вещей, <span class="word-spacing">в которые никто не верил</span></div>
+            <div class="bet-button"><button class="text-button">Сделать ставку</button></div>
+             </form><!--контейнер для подзаголовка и кнопки ЗАКОНЧИЛСЯ!!!!-->
+        </div>
+      </section> 
+
+
+
+
+
+
+      <section class="lots"> <!--ВСЯ СЕКЦИЯ-->
+        <h2 class="lots__heading">Лоты</h2>  <!--заголовок секции-->
+    
+        <ul class="lots__card-list"> <!--список карточек-->
+          <li class="lots__card-list-item"> <!--пункт списка карточки-->
+           <a href="#0"class="card-link"> <!--ссылка, обрамляющая карточку-->
+            
+             <article class="card first-card"> <!--тег для карточки-->
+              
+                 
+                 <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2> <!--заголовок карточки-->
+                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
+                   если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                   
+             </article>
+           </a>
+            </li>
+            
+
+            
+
+
+            <li class="lots__card-list-item"> <!--пункт списка карточки-->
+              <a href="#0"class="card-link"> <!--ссылка, обрамляющая карточку-->
+            <article class="card card_second"> <!--тег для карточки-->
+              
+                <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2> <!--заголовок карточки-->
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
+                  В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
+                  И это всё накладывается на эпическую поэму Гомера.
+                   Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p> <!--текст карточки-->
+              
+            </article>
+            </a>
+            </li>
+
+
+            <li class="lots__card-list-item"> <!--пункт списка карточки-->
+              <a href="#0"class="card-link"> <!--ссылка, обрамляющая карточку-->
+            <article class="card card_third">
+              
+                <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2> <!--заголовок карточки-->
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
+                  Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, 
+                  что это — одна из революционных работ Кандинского?</p> <!--текст карточки-->
+              
+            </article>
+          </a>
+        </li>
+      </ul> <!--СПИСОК КАРТОЧЕК ЗАКОНЧЕН!!!!!!!-->
+              
+     <a href="#0" class="lots__look-more-link"></a>
+                  
+      </section> <!--ВСЯ СЕКЦИЯ ЗАКОНЧИЛАСЬ!!!!-->
+      
+
+
+
+
+
+
+
+      
+      <section class="about about__column"> <!--вся секция и класс для колонок-->
+       
+          <a class="about__logo"> 
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип проекта"> <!--картинка с логотипом-->
+             </a>
+        
+        <h2 class="about__title">Об аукционе</h2> <!--заголовок секции-->
+        <div><p class="about__text"> </p> <!--блок для текстов секции--></div>
+      </section> 
+      
+      
+      
+
+
+
+    </main>  
+
+
+
+
+
+
+    <footer class="footer"> <!--подвал сайта-->
+      <address class="address"><!--контейнер с адресом и вложенность доп.класс чтобы выравнивать блок с адресом-->
+        <a class="text-decoration" href="tel:+77778889900">+9 999 555 5555</a><br>
+        <a class="text-decoration" href="mailto:article@auth.or">info@sobaka.ge</a><br>
+        <p class="header__address">наб. Принсенграхт 263-265, Амстердам</p>
+        
+     </address> 
+
+     <nav class="footer__menu"><!--блок навигации по списку ссылок. Мы рекомендуем окружать список тегом <nav> с этим классом;-->
+      <ul class="footer__menu-list "><!--список пунктов меню-->
+
+        <li class="footer__menu-list-item footer__menu-link_active" ><!--пункт списка меню и класс активная ссылка меню (без подчеркивания)-->
+            <a class="footer__menu-link  ">Главная</a> <!--ссылка меню-->     
+        </li> 
+
+
+        <li class="footer__menu-list-item"> <!--пункт списка ссылок-->
+          
+            <a href="#" class="footer__menu-link">посмотреть лоты</a> <!--ссылка меню--> 
+        </li>
+
+
+        <li class="footer__menu-list-item"> <!--пункт списка ссылок-->
+          
+            <a href="#"class="footer__menu-link">об аукционе</a> <!--ссылка меню-->
+         
+        </li>
+
+      </ul> <!--список закончился-->
+    </nav> <!--блок с адресом-->
+      
+
+    <ul class="footer__social-list"><!--список ссылок на социальные сети. Можно не добавлять тег <nav>, потому что это ссыл на внешние ресурсы-->
+      <li class="footer__social-list-item"> <!--пункт списка ссылок на социальные сети-->
+        <a class="footer__social-link"> <!--ссылка на социальные сети-->
+          <img class="footer__social-icon"> <!--иконка социальной сети-->
+        </a>
+
+      </li>
+    </ul> 
+
+    </footer>
+  </body>
+</html>
